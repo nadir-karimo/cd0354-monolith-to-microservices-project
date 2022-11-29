@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: karimo-micro-udagram
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  JWT_SECRET: hellos
+  POSTGRESS_DB: postgress
+  POSTGRESS_HOST: karimomicro.cjoc7exngp2t.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
