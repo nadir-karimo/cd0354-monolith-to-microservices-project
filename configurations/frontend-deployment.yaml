@@ -9,14 +9,15 @@ spec:
   selector:
     matchLabels:
       app: frontend
-  template:
+  
+  :
     metadata:
       labels:
         app: frontend
     spec:
       containers:
       - name: frontend
-        image: nkarimo989/udagram-frontend:v1
+        image: nkarimo989/udagram-frontend:v2
         imagePullPolicy: Always
         envFrom:
           - secretRef:
